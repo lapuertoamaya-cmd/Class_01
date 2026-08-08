@@ -1,5 +1,12 @@
+# Ignoramos estos archivos porque tienen información de la sesión actual de R, 
 .Rhistory
 .RData
 
-/temp/ 
+# Carpetas en la raiz, no en subcarpetas de nombre temp
+/temp/
+
+# Carpeta en una subcarpeta de nombre temp
+temp/
+
+# Para evitar que se miren cambios en tipos de archivos
 *.pdf
